@@ -1,1 +1,32 @@
+header {
+	width: 100%;
+	position: fixed;
+	padding: 10px;
+	background-color: lightgrey;
+	border-bottom: 1px grey solid;
+}
+
+header * {
+	display: inline-block;
+}
+
+header a {
+	text-decoration: none;
+}
+.topLogo {
+	margin: 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+.topNav {
+	position: absolute;
+	right: 30px;
+	font-size: 1.25em;
+}
+
+.topNav a {
+	display: inline-block;
+	margin-left: 15px;
+}
 
