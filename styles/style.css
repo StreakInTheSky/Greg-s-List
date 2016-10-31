@@ -1,3 +1,4 @@
+/* Header and Top Nav */
 header {
 	width: 100%;
 	position: fixed;
@@ -19,6 +20,10 @@ header a {
 	font-weight: normal;
 }
 
+.topLogo a {
+	color: black;
+}
+
 .topNav {
 	position: absolute;
 	right: 30px;
@@ -28,5 +33,25 @@ header a {
 .topNav a {
 	display: inline-block;
 	margin-left: 15px;
+}
+
+/* Main Body*/
+main {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+}
+
+.searchBar form {
+	margin: 0;
+}
+.searchBar form input {
+	width: 400px;
+}
+
+img.searchButton {
+	height: 20px;
+	border: 1px grey solid;
 }
 
