@@ -50,16 +50,17 @@ input, button {
 
 .searchBar form input {
 	width: 400px;
+	padding: 5px;
 }
 
 .searchBar button {
 	background-image: url(../images/magnifying-glass.png);
 	background-size: 100% 100%;
 	background-color: white;
-	height: 22px;
-	width: 22px;
+	height: 30px;
+	width: 30px;
 	position: relative;
-	bottom: -4px;
+	bottom: -8px;
 }
 
 .searchBar button span {
@@ -70,10 +71,26 @@ input, button {
 .pageNav{
 	margin-top: 30px;
 }
+
 .pageNav * {
 	display: inline-block;
-	padding: 5px;
+	padding: 10px;
 	border-top: 1px lightgrey solid;
 	border-bottom: 1px lightgrey solid;
 }
 
+.pageNav .previous {
+	border-left: 1px lightgrey solid;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.pageNav .next {
+	border-right: 1px lightgrey solid;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+ .pageNav .listingRange {
+ 	border-right: 1px lightgrey solid;
+ 	border-left: 1px lightgrey solid;
+ }
