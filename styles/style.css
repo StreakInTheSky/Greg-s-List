@@ -42,15 +42,25 @@ main {
 	padding-top: 100px;
 }
 
-.searchBar form {
-	margin: 0;
-}
+/*Search Bar*/
 .searchBar form input {
 	width: 400px;
+	border: 1px lightgrey solid;
+	border-radius: 4px;
 }
 
-img.searchButton {
-	height: 20px;
-	border: 1px grey solid;
+.searchBar button {
+	background-image: url(../images/magnifying-glass.png);
+	background-size: 100% 100%;
+	background-color: white;
+	height: 22px;
+	width: 22px;
+	position: relative;
+	bottom: -4px;
+	border: 1px lightgrey solid;
+	border-radius: 4px;
 }
 
+.searchBar button span {
+	display: none;
+}
