@@ -79,6 +79,11 @@ input, button {
 	border-bottom: 1px lightgrey solid;
 }
 
+.pageNav a {
+	text-decoration: none;
+	color: black;
+}
+
 .pageNav .previous {
 	border-left: 1px lightgrey solid;
 	border-top-left-radius: 4px;
@@ -93,4 +98,23 @@ input, button {
  .pageNav .listingRange {
  	border-right: 1px lightgrey solid;
  	border-left: 1px lightgrey solid;
+ }
+
+ /* Listings */
+ .searchResults ol {
+ 	list-style: none;
+ 	padding-left: 0;
+ }
+
+ .searchResults .listingInfo {
+ 	color: grey;
+ 	margin-bottom: 10px;
+ }
+
+ .searchResults .listingInfo a {
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	display: inline-block;
+ 	margin-left: 10px;
+ 	margin-right: 10px;
  }
