@@ -79,6 +79,11 @@ input, button {
 	border-bottom: 1px lightgrey solid;
 }
 
+.pageNav a {
+	text-decoration: none;
+	color: black;
+}
+
 .pageNav .previous {
 	border-left: 1px lightgrey solid;
 	border-top-left-radius: 4px;
