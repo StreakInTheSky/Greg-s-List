@@ -43,10 +43,13 @@ main {
 }
 
 /*Search Bar*/
-.searchBar form input {
-	width: 400px;
+input, button {
 	border: 1px lightgrey solid;
 	border-radius: 4px;
+}
+
+.searchBar form input {
+	width: 400px;
 }
 
 .searchBar button {
@@ -57,10 +60,20 @@ main {
 	width: 22px;
 	position: relative;
 	bottom: -4px;
-	border: 1px lightgrey solid;
-	border-radius: 4px;
 }
 
 .searchBar button span {
 	display: none;
 }
+
+/* Page Nav */
+.pageNav{
+	margin-top: 30px;
+}
+.pageNav * {
+	display: inline-block;
+	padding: 5px;
+	border-top: 1px lightgrey solid;
+	border-bottom: 1px lightgrey solid;
+}
+
