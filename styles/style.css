@@ -1,10 +1,16 @@
+html {
+	font-size: 62.5%;
+}
+
+
 /* Header and Top Nav */
 header {
 	width: 100%;
 	position: fixed;
 	padding: 10px;
-	background-color: lightgrey;
-	border-bottom: 1px grey solid;
+	background-color: #eee;
+	border-bottom: 1px #dddddd solid;
+	font-size: 1.8rem;
 }
 
 header * {
@@ -16,7 +22,7 @@ header a {
 }
 .topLogo {
 	margin: 0;
-	font-size: 1.25em;
+	font-size: 1.8rem;
 	font-weight: normal;
 }
 
@@ -27,7 +33,6 @@ header a {
 .topNav {
 	position: absolute;
 	right: 30px;
-	font-size: 1.25em;
 }
 
 .topNav a {
@@ -40,17 +45,19 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 100px;
+	font-size: 1.6rem;
 }
 
 /*Search Bar*/
 input, button {
-	border: 1px lightgrey solid;
+	border: 1px #cccccc solid;
 	border-radius: 4px;
 }
 
 .searchBar form input {
 	width: 400px;
 	padding: 5px;
+	vertical-align: middle;
 }
 
 .searchBar button {
@@ -59,8 +66,7 @@ input, button {
 	background-color: white;
 	height: 30px;
 	width: 30px;
-	position: relative;
-	bottom: -8px;
+	vertical-align: middle;
 }
 
 .searchBar button span {
@@ -75,8 +81,8 @@ input, button {
 .pageNav * {
 	display: inline-block;
 	padding: 10px;
-	border-top: 1px lightgrey solid;
-	border-bottom: 1px lightgrey solid;
+	border-top: 1px #cccccc solid;
+	border-bottom: 1px #cccccc solid;
 }
 
 .pageNav a {
@@ -85,19 +91,19 @@ input, button {
 }
 
 .pageNav .previous {
-	border-left: 1px lightgrey solid;
+	border-left: 1px #cccccc solid;
 	border-top-left-radius: 4px;
 	border-bottom-left-radius: 4px;
 }
 
 .pageNav .next {
-	border-right: 1px lightgrey solid;
+	border-right: 1px #cccccc solid;
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
 }
  .pageNav .listingRange {
- 	border-right: 1px lightgrey solid;
- 	border-left: 1px lightgrey solid;
+ 	border-right: 1px #cccccc solid;
+ 	border-left: 1px #cccccc solid;
  }
 
  /* Listings */
@@ -107,8 +113,8 @@ input, button {
  }
 
  .searchResults .listingInfo {
- 	color: grey;
- 	margin-bottom: 10px;
+ 	color: #888;
+ 	margin-bottom: 15px;
  }
 
  .searchResults .listingInfo a {
@@ -117,4 +123,8 @@ input, button {
  	display: inline-block;
  	margin-left: 10px;
  	margin-right: 10px;
+ 	background-size: 100% 100%;
+ 	color: blue;
+
  }
+
